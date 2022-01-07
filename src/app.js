@@ -6,18 +6,24 @@ import {View, StyleSheet} from "react-native";
 // import MinMaxx from './componentes/MinMax';
 // import Aleatorio from './componentes/aleatorio';
 // import Titulo from './componentes/Titulo';
-import Botao from './componentes/botao';
-import Contador from './componentes/Contador';
+// import Botao from './componentes/botao';
+// import Contador from './componentes/Contador';
+// import Pai from './componentes/direta/Pai';
+import Pai from './componentes/indireta/Pai';
+// import ContadorV2 from './componentes/contador/ContadorV2';
 
 export default() => {
     return (
         <View style={style.App}>
             
             
+            {/* <ContadorV2/> */}
+            <Pai/>
 
+            {/*
+            <Pai/>
+            <Pai/>
             <Contador/>
-        
-            {/* 
             <Botao/>
             <Titulo principal='Cadastro Produto' secundario='Tela de Cadastro do Produto'/>
             <CompPadrao/>
